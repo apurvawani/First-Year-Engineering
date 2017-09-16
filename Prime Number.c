@@ -20,7 +20,7 @@ for(i=2;i<k;i++)
 }
 if(r!=0)
 {
-printf("The given number is prime.\n");
+	printf("The given number is prime.\n");
 }
 return(0);
 }
