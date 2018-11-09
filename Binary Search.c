@@ -1,4 +1,6 @@
-/*Write a program to store N numbers in a sorted array and search particular number.*/
+/*
+Write a program to store N numbers in a sorted array and search particular number using Binary Search , Iterative Approach.
+*/
 
 #include<stdio.h>
 void main(){
