@@ -19,11 +19,14 @@ Constrains :
 using namespace std;
 
 int bubble_Sort(int *arr , int size) {
+    bool flag;
     int result = 0 , temp;
-    for(int i = 0 ; i < size ; i++) {
+    for(int i = 0 ; i < size && flag == true ; i++) {
+        flag = false;
         int j = 0;
         while(j < size-i-1) {
             if(arr[j] > arr[j+1]) {
+                flag = true;
                 temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
